@@ -8,7 +8,7 @@ This is just an example, please feel free to add extra fields or change the data
 
 ```json
 {
-   
+   "Key":"Value"
 }
 ```
 
@@ -17,7 +17,28 @@ This is just an example, please feel free to add extra fields or change the data
 
 ```json
 [
-    
+   "Value",
+   "Value" 
+]
+```
+**OR**
+
+```json
+[
+    {
+        "Key":"Value"
+    },
+    {
+        "Key":"Value"
+    },
 ]
 ```
 
+**Note `values` can be objects or lists:**
+
+```json
+{
+    "Key":{ "Key":"Value" },
+    "Key2":[ "Value" ]
+}
+```
