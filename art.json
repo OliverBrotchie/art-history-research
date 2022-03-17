@@ -1,0 +1,74 @@
+{
+    "paintings": [
+        {
+            "id": "Unique ID",
+            "title": "Some Title",
+            "date": "...",
+            "location": "Some Place",
+            "artists": {
+                "designer": "Unique ID",
+                "colourist": "Unique ID",
+                "Portrait": "Unique ID"
+            },
+            "patterns": ["pattern x", "pattern y"]
+        },
+        {
+            "id": "Unique ID",
+            "title": "Some Title",
+            "date": "...",
+            "location": "Some Place",
+            "artists": {
+                "designer": "Unique ID",
+                "colourist": "Unique ID",
+                "Portrait": "Unique ID"
+            },
+            "patterns": ["pattern x", "pattern y"]
+        }
+    ],
+    "artists": [
+        {
+            "id": "Unique ID",
+            "name": "Name",
+            "workshops": [
+                {
+                    "id": "Unique ID",
+                    "from": "Date",
+                    "to": "Date or null"
+                },
+                {
+                    "id": "Unique ID",
+                    "from": "Date",
+                    "to": "Date or null"
+                }
+            ]
+        },
+        {
+            "id": "Unique ID",
+            "name": "Name",
+            "workshops": [
+                {
+                    "id": "Unique ID",
+                    "from": "Date",
+                    "to": "Date or null"
+                },
+                {
+                    "id": "Unique ID",
+                    "from": "Date",
+                    "to": "Date or null"
+                }
+            ]
+        }
+    ],
+    "workshops": [
+        {
+            "id": "Unique ID",
+            "name": "Name",
+            "location": "Some Place"
+        },
+        {
+            "id": "Unique ID",
+            "name": "Name",
+            "location": "Some Place"
+        }
+    ]
+}
